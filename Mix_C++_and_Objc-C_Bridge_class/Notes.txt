@@ -1,0 +1,8 @@
+" Mixing Objective-C & C++ like two pies in a pot "
+
+When working with C++ on Mac or iOS, it may be sometimes necessary to rely on some UIKit / 3rd party Objective-C libraries, or vice-versa, when we need to implement a C++ library to use in an Objective-C application.
+
+To do so, one simple solution is to create 2 'header' files ('*.h', one in each language), and a single 'mixed' implementation file ( '*.mm' , mixing both languages)
+
+
+Example files shows how to build a class wich allows to open a link in mobile safari from C++
